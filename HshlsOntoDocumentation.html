@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Harmonized survey on household living standards Ontology (HshlsOnto)</title>
+    <title>Harmonized survey on households living standards Ontology (HshlsOnto)</title>
     <style>
         #pylode {
             position: fixed;
@@ -299,7 +299,7 @@ td {
     ],
     "https://schema.org/name": [
       {
-        "@value": "Harmonized survey on household living standards Ontology (HshlsOnto)"
+        "@value": "Harmonized survey on households living standards Ontology (HshlsOnto)"
       }
     ]
   }
@@ -309,7 +309,7 @@ td {
   <body>
     <div id="content">
       <div class="section" id="metadata">
-        <h1>Harmonized survey on household living standards Ontology (HshlsOnto)</h1>
+        <h1>Harmonized survey on households living standards Ontology (HshlsOnto)</h1>
         <h2>Metadata</h2>
         <dl>
           <div>
@@ -324,7 +324,7 @@ td {
             <dt>
               <a class="hover_property" href="http://purl.org/dc/terms/title" title="A name given to the resource. Defined in DCMI Metadata Terms">Title</a>
             </dt>
-            <dd><p>Harmonized survey on household living standards Ontology (HshlsOnto)</p></dd>
+            <dd><p>Harmonized survey on households living standards Ontology (HshlsOnto)</p></dd>
           </div>
           <div>
             <dt>
@@ -339,6 +339,12 @@ td {
             <dd>
               <a href="https://github.com/moukmarc/HshlsOnto/blob/main/LICENSE">https://github.com/moukmarc/HshlsOnto/blob/main/LICENSE</a>
             </dd>
+          </div>
+          <div>
+            <dt>
+              <a class="hover_property" href="http://purl.org/vocab/vann/preferredNamespacePrefix" title="None. Defined in None">Preferred Namespace Prefix</a>
+            </dt>
+            <dd><p>hshls</p></dd>
           </div>
         </dl>
       </div>
@@ -434,13 +440,13 @@ td {
                   <li>
                     <span>
                       <a href="#ConcernsHousehold"> Concerns household </a>
-                      <sup class="sup-p" title="RDF Property">p</sup>
+                      <sup class="sup-op" title="OWL Object Property">op</sup>
                     </span>
                   </li>
                   <li>
                     <span>
                       <a href="#belongsToHousehold"> belongs to household </a>
-                      <sup class="sup-p" title="RDF Property">p</sup>
+                      <sup class="sup-op" title="OWL Object Property">op</sup>
                     </span>
                   </li>
                 </ul>
@@ -468,7 +474,7 @@ td {
                   <li>
                     <span>
                       <a href="#belongsToHousehold"> belongs to household </a>
-                      <sup class="sup-p" title="RDF Property">p</sup>
+                      <sup class="sup-op" title="OWL Object Property">op</sup>
                     </span>
                   </li>
                   <li>
@@ -564,7 +570,7 @@ td {
                   <li>
                     <span>
                       <a href="#ConcernsHousehold"> Concerns household </a>
-                      <sup class="sup-p" title="RDF Property">p</sup>
+                      <sup class="sup-op" title="OWL Object Property">op</sup>
                     </span>
                   </li>
                   <li>
@@ -589,7 +595,7 @@ td {
               <td>
                 <span>
                   <a href="#ccontainsQuestionnaire">contains questionnaire</a>
-                  <sup class="sup-p" title="RDF Property">p</sup>
+                  <sup class="sup-op" title="OWL Object Property">op</sup>
                 </span>
               </td>
             </tr>
@@ -613,7 +619,7 @@ td {
               <td>
                 <span>
                   <a href="#ccontainsQuestionnaire">contains questionnaire</a>
-                  <sup class="sup-p" title="RDF Property">p</sup>
+                  <sup class="sup-op" title="OWL Object Property">op</sup>
                 </span>
               </td>
             </tr>
@@ -633,111 +639,6 @@ td {
       </div>
       <div class="section" id="properties">
         <h2>Properties</h2>
-        <div class="property entity" id="ConcernsHousehold">
-          <h3> Concerns household 
-            <sup class="sup-p" title="RDF Property">p</sup>
-          </h3>
-          <table>
-            <tr>
-              <th>IRI</th>
-              <td>
-                <code>http://w3id.org/HshlsOnto/ConcernsHousehold</code>
-              </td>
-            </tr>
-            <tr>
-              <th>
-                <a class="hover_property" href="http://www.w3.org/2000/01/rdf-schema#domain" title="A domain of the subject property. Defined in The RDF Schema vocabulary (RDFS)">Domain</a>
-              </th>
-              <td>
-                <span>
-                  <a href="#Questionnaire">ex:Questionnaire</a>
-                  <sup class="sup-c" title="OWL/RDFS Class">c</sup>
-                </span>
-              </td>
-            </tr>
-            <tr>
-              <th>
-                <a class="hover_property" href="http://www.w3.org/2000/01/rdf-schema#range" title="A range of the subject property. Defined in The RDF Schema vocabulary (RDFS)">Range</a>
-              </th>
-              <td>
-                <span>
-                  <a href="#Ahousehold"> A household </a>
-                  <sup class="sup-c" title="OWL/RDFS Class">c</sup>
-                </span>
-              </td>
-            </tr>
-          </table>
-        </div>
-        <div class="property entity" id="belongsToHousehold">
-          <h3> belongs to household 
-            <sup class="sup-p" title="RDF Property">p</sup>
-          </h3>
-          <table>
-            <tr>
-              <th>IRI</th>
-              <td>
-                <code>http://w3id.org/HshlsOnto/belongsToHousehold</code>
-              </td>
-            </tr>
-            <tr>
-              <th>
-                <a class="hover_property" href="http://www.w3.org/2000/01/rdf-schema#domain" title="A domain of the subject property. Defined in The RDF Schema vocabulary (RDFS)">Domain</a>
-              </th>
-              <td>
-                <span>
-                  <a href="#Ahouseholdmembersurveyed"> A household member surveyed </a>
-                  <sup class="sup-c" title="OWL/RDFS Class">c</sup>
-                </span>
-              </td>
-            </tr>
-            <tr>
-              <th>
-                <a class="hover_property" href="http://www.w3.org/2000/01/rdf-schema#range" title="A range of the subject property. Defined in The RDF Schema vocabulary (RDFS)">Range</a>
-              </th>
-              <td>
-                <span>
-                  <a href="#Ahousehold"> A household </a>
-                  <sup class="sup-c" title="OWL/RDFS Class">c</sup>
-                </span>
-              </td>
-            </tr>
-          </table>
-        </div>
-        <div class="property entity" id="ccontainsQuestionnaire">
-          <h3>contains questionnaire
-            <sup class="sup-p" title="RDF Property">p</sup>
-          </h3>
-          <table>
-            <tr>
-              <th>IRI</th>
-              <td>
-                <code>http://w3id.org/HshlsOnto/ccontainsQuestionnaire</code>
-              </td>
-            </tr>
-            <tr>
-              <th>
-                <a class="hover_property" href="http://www.w3.org/2000/01/rdf-schema#domain" title="A domain of the subject property. Defined in The RDF Schema vocabulary (RDFS)">Domain</a>
-              </th>
-              <td>
-                <span>
-                  <a href="#Section"> A section or module of the survey </a>
-                  <sup class="sup-c" title="OWL/RDFS Class">c</sup>
-                </span>
-              </td>
-            </tr>
-            <tr>
-              <th>
-                <a class="hover_property" href="http://www.w3.org/2000/01/rdf-schema#range" title="A range of the subject property. Defined in The RDF Schema vocabulary (RDFS)">Range</a>
-              </th>
-              <td>
-                <span>
-                  <a href="#Questionnaire">ex:Questionnaire</a>
-                  <sup class="sup-c" title="OWL/RDFS Class">c</sup>
-                </span>
-              </td>
-            </tr>
-          </table>
-        </div>
         <div class="property entity" id="dependson">
           <h3> depends on 
             <sup class="sup-p" title="RDF Property">p</sup>
@@ -822,7 +723,7 @@ td {
               </th>
               <td>
                 <span>
-                  <a href="#Questionnaire">ex:Questionnaire</a>
+                  <a href="#Questionnaire">hshls:Questionnaire</a>
                   <sup class="sup-c" title="OWL/RDFS Class">c</sup>
                 </span>
               </td>
@@ -1023,7 +924,7 @@ td {
               </th>
               <td>
                 <span>
-                  <a href="#Questionnaire">ex:Questionnaire</a>
+                  <a href="#Questionnaire">hshls:Questionnaire</a>
                   <sup class="sup-c" title="OWL/RDFS Class">c</sup>
                 </span>
               </td>
@@ -1052,6 +953,234 @@ td {
           </table>
         </div>
       </div>
+      <div class="section" id="objectproperties">
+        <h2>Object Properties</h2>
+        <div class="property entity" id="ConcernsHousehold">
+          <h3> Concerns household 
+            <sup class="sup-op" title="OWL Object Property">op</sup>
+          </h3>
+          <table>
+            <tr>
+              <th>IRI</th>
+              <td>
+                <code>http://w3id.org/HshlsOnto/ConcernsHousehold</code>
+              </td>
+            </tr>
+            <tr>
+              <th>
+                <a class="hover_property" href="http://www.w3.org/2000/01/rdf-schema#domain" title="A domain of the subject property. Defined in The RDF Schema vocabulary (RDFS)">Domain</a>
+              </th>
+              <td>
+                <span>
+                  <a href="#Questionnaire">hshls:Questionnaire</a>
+                  <sup class="sup-c" title="OWL/RDFS Class">c</sup>
+                </span>
+              </td>
+            </tr>
+            <tr>
+              <th>
+                <a class="hover_property" href="http://www.w3.org/2000/01/rdf-schema#range" title="A range of the subject property. Defined in The RDF Schema vocabulary (RDFS)">Range</a>
+              </th>
+              <td>
+                <span>
+                  <a href="#Ahousehold"> A household </a>
+                  <sup class="sup-c" title="OWL/RDFS Class">c</sup>
+                </span>
+              </td>
+            </tr>
+          </table>
+        </div>
+        <div class="property entity" id="belongsToHousehold">
+          <h3> belongs to household 
+            <sup class="sup-op" title="OWL Object Property">op</sup>
+          </h3>
+          <table>
+            <tr>
+              <th>IRI</th>
+              <td>
+                <code>http://w3id.org/HshlsOnto/belongsToHousehold</code>
+              </td>
+            </tr>
+            <tr>
+              <th>
+                <a class="hover_property" href="http://www.w3.org/2000/01/rdf-schema#domain" title="A domain of the subject property. Defined in The RDF Schema vocabulary (RDFS)">Domain</a>
+              </th>
+              <td>
+                <span>
+                  <a href="#Ahouseholdmembersurveyed"> A household member surveyed </a>
+                  <sup class="sup-c" title="OWL/RDFS Class">c</sup>
+                </span>
+              </td>
+            </tr>
+            <tr>
+              <th>
+                <a class="hover_property" href="http://www.w3.org/2000/01/rdf-schema#range" title="A range of the subject property. Defined in The RDF Schema vocabulary (RDFS)">Range</a>
+              </th>
+              <td>
+                <span>
+                  <a href="#Ahousehold"> A household </a>
+                  <sup class="sup-c" title="OWL/RDFS Class">c</sup>
+                </span>
+              </td>
+            </tr>
+          </table>
+        </div>
+        <div class="property entity" id="ccontainsQuestionnaire">
+          <h3>contains questionnaire
+            <sup class="sup-op" title="OWL Object Property">op</sup>
+          </h3>
+          <table>
+            <tr>
+              <th>IRI</th>
+              <td>
+                <code>http://w3id.org/HshlsOnto/ccontainsQuestionnaire</code>
+              </td>
+            </tr>
+            <tr>
+              <th>
+                <a class="hover_property" href="http://www.w3.org/2000/01/rdf-schema#domain" title="A domain of the subject property. Defined in The RDF Schema vocabulary (RDFS)">Domain</a>
+              </th>
+              <td>
+                <span>
+                  <a href="#Section"> A section or module of the survey </a>
+                  <sup class="sup-c" title="OWL/RDFS Class">c</sup>
+                </span>
+              </td>
+            </tr>
+            <tr>
+              <th>
+                <a class="hover_property" href="http://www.w3.org/2000/01/rdf-schema#range" title="A range of the subject property. Defined in The RDF Schema vocabulary (RDFS)">Range</a>
+              </th>
+              <td>
+                <span>
+                  <a href="#Questionnaire">hshls:Questionnaire</a>
+                  <sup class="sup-c" title="OWL/RDFS Class">c</sup>
+                </span>
+              </td>
+            </tr>
+          </table>
+        </div>
+      </div>
+      <div class="section" id="annotationproperties">
+        <h2>Annotation Properties</h2>
+        <div class="property entity" id="contributor">
+          <h3>contributor
+            <sup class="sup-ap" title="OWL Annotation Property">ap</sup>
+          </h3>
+          <table>
+            <tr>
+              <th>IRI</th>
+              <td>
+                <code>http://purl.org/dc/terms/contributor</code>
+              </td>
+            </tr>
+          </table>
+        </div>
+        <div class="property entity" id="created">
+          <h3>created
+            <sup class="sup-ap" title="OWL Annotation Property">ap</sup>
+          </h3>
+          <table>
+            <tr>
+              <th>IRI</th>
+              <td>
+                <code>http://purl.org/dc/terms/created</code>
+              </td>
+            </tr>
+          </table>
+        </div>
+        <div class="property entity" id="creator">
+          <h3>creator
+            <sup class="sup-ap" title="OWL Annotation Property">ap</sup>
+          </h3>
+          <table>
+            <tr>
+              <th>IRI</th>
+              <td>
+                <code>http://purl.org/dc/terms/creator</code>
+              </td>
+            </tr>
+          </table>
+        </div>
+        <div class="property entity" id="description">
+          <h3>description
+            <sup class="sup-ap" title="OWL Annotation Property">ap</sup>
+          </h3>
+          <table>
+            <tr>
+              <th>IRI</th>
+              <td>
+                <code>http://purl.org/dc/terms/description</code>
+              </td>
+            </tr>
+          </table>
+        </div>
+        <div class="property entity" id="license">
+          <h3>license
+            <sup class="sup-ap" title="OWL Annotation Property">ap</sup>
+          </h3>
+          <table>
+            <tr>
+              <th>IRI</th>
+              <td>
+                <code>http://purl.org/dc/terms/license</code>
+              </td>
+            </tr>
+          </table>
+        </div>
+        <div class="property entity" id="title">
+          <h3>title
+            <sup class="sup-ap" title="OWL Annotation Property">ap</sup>
+          </h3>
+          <table>
+            <tr>
+              <th>IRI</th>
+              <td>
+                <code>http://purl.org/dc/terms/title</code>
+              </td>
+            </tr>
+          </table>
+        </div>
+        <div class="property entity" id="preferredNamespacePrefix">
+          <h3>preferred namespace prefix
+            <sup class="sup-ap" title="OWL Annotation Property">ap</sup>
+          </h3>
+          <table>
+            <tr>
+              <th>IRI</th>
+              <td>
+                <code>http://purl.org/vocab/vann/preferredNamespacePrefix</code>
+              </td>
+            </tr>
+          </table>
+        </div>
+        <div class="property entity" id="preferredNamespaceUri">
+          <h3>preferred namespace uri
+            <sup class="sup-ap" title="OWL Annotation Property">ap</sup>
+          </h3>
+          <table>
+            <tr>
+              <th>IRI</th>
+              <td>
+                <code>http://purl.org/vocab/vann/preferredNamespaceUri</code>
+              </td>
+            </tr>
+          </table>
+        </div>
+        <div class="property entity" id="Description">
+          <h3>Description
+            <sup class="sup-ap" title="OWL Annotation Property">ap</sup>
+          </h3>
+          <table>
+            <tr>
+              <th>IRI</th>
+              <td>
+                <code>http://w3id.org/HshlsOnto/description</code>
+              </td>
+            </tr>
+          </table>
+        </div>
+      </div>
       <div id="namespaces">
         <h2>Namespaces</h2>
         <dl>
@@ -1059,7 +1188,7 @@ td {
           <dd>
             <code>http://purl.org/dc/terms/</code>
           </dd>
-          <dt id="ex">ex</dt>
+          <dt id="hshls">hshls</dt>
           <dd>
             <code>http://w3id.org/HshlsOnto/</code>
           </dd>
@@ -1074,6 +1203,10 @@ td {
           <dt id="rdfs">rdfs</dt>
           <dd>
             <code>http://www.w3.org/2000/01/rdf-schema#</code>
+          </dd>
+          <dt id="vann">vann</dt>
+          <dd>
+            <code>http://purl.org/vocab/vann/</code>
           </dd>
           <dt id="xsd">xsd</dt>
           <dd>
@@ -1095,6 +1228,18 @@ td {
               <sup class="sup-p" title="RDF Property">p</sup>
             </td>
             <td>Properties</td>
+          </tr>
+          <tr>
+            <td>
+              <sup class="sup-op" title="OWL Object Property">op</sup>
+            </td>
+            <td>Object Properties</td>
+          </tr>
+          <tr>
+            <td>
+              <sup class="sup-ap" title="OWL Annotation Property">ap</sup>
+            </td>
+            <td>Annotation Properties</td>
           </tr>
         </table>
       </div>
@@ -1154,15 +1299,6 @@ td {
           </h4>
           <ul class="second">
             <li>
-              <a href="#ConcernsHousehold"> Concerns household </a>
-            </li>
-            <li>
-              <a href="#belongsToHousehold"> belongs to household </a>
-            </li>
-            <li>
-              <a href="#ccontainsQuestionnaire">contains questionnaire</a>
-            </li>
-            <li>
               <a href="#dependson"> depends on </a>
             </li>
             <li>
@@ -1196,6 +1332,56 @@ td {
         </li>
         <li>
           <h4>
+            <a href="#objectproperties">Object Properties</a>
+          </h4>
+          <ul class="second">
+            <li>
+              <a href="#ConcernsHousehold"> Concerns household </a>
+            </li>
+            <li>
+              <a href="#belongsToHousehold"> belongs to household </a>
+            </li>
+            <li>
+              <a href="#ccontainsQuestionnaire">contains questionnaire</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <h4>
+            <a href="#annotationproperties">Annotation Properties</a>
+          </h4>
+          <ul class="second">
+            <li>
+              <a href="#contributor">contributor</a>
+            </li>
+            <li>
+              <a href="#created">created</a>
+            </li>
+            <li>
+              <a href="#creator">creator</a>
+            </li>
+            <li>
+              <a href="#description">description</a>
+            </li>
+            <li>
+              <a href="#license">license</a>
+            </li>
+            <li>
+              <a href="#title">title</a>
+            </li>
+            <li>
+              <a href="#preferredNamespacePrefix">preferred namespace prefix</a>
+            </li>
+            <li>
+              <a href="#preferredNamespaceUri">preferred namespace uri</a>
+            </li>
+            <li>
+              <a href="#Description">Description</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <h4>
             <a href="#namespaces">Namespaces</a>
           </h4>
           <ul class="second">
@@ -1203,7 +1389,7 @@ td {
               <a href="#dcterms">dcterms</a>
             </li>
             <li>
-              <a href="#ex">ex</a>
+              <a href="#hshls">hshls</a>
             </li>
             <li>
               <a href="#owl">owl</a>
@@ -1213,6 +1399,9 @@ td {
             </li>
             <li>
               <a href="#rdfs">rdfs</a>
+            </li>
+            <li>
+              <a href="#vann">vann</a>
             </li>
             <li>
               <a href="#xsd">xsd</a>
